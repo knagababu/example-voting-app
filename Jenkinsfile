@@ -1,6 +1,5 @@
 
 pipeline {
-   agent any 
    
    docker.withRegistry('https://10.1.53.4/','dtr-login'){
        // dtr-login is a login ID in credentials 
